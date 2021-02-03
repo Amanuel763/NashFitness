@@ -1,0 +1,44 @@
+.Hero-container{
+    background: url('../images/machine.jpg') center center/cover no-repeat;
+    height: 91vh;
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+}
+
+.Hero-container h1{
+    color: #fff;
+    text-align: center;
+    transform: translateY(220%);
+    font-size: 4.5rem;
+}
+
+
+.Hero-container h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 15rem;
+    font-size: 3.5rem;
+}
+
+.Hero-overlay{
+    position: absolute;
+    padding: 3.5rem 4.5rem;
+    background: #fff;
+    transform: translate(60%, 140%);
+    z-index: 2;
+}
+
+
+.Hero-overlay button{
+    padding: 0.5rem 2rem;
+    border: 1px solid #c46dff;
+    background: none;
+}
+
+.Hero-overlay button:hover, button:focus{
+    background: #c46dff;
+    transition: all 1s;
+    color: #fff;
+    outline: none;
+}

@@ -1,0 +1,65 @@
+.Programms{
+    height: 70vh;
+    margin-top: 30rem;
+}
+
+.Programm-header{
+    text-align: center;
+    margin-bottom: 7rem;    
+}
+
+.card{
+    text-align: center;
+}
+
+.card h6{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(240, 150, 150);
+    margin-top: 1rem;
+}
+
+
+.card:hover{
+    text-decoration: none;
+}
+
+.card hr{
+    margin-left: 11.5rem;
+    width: 10%;
+    border-color: black;
+}
+
+.card-body{
+    background: url(../images/balance.jpg) center center/cover no-repeat;
+    object-fit: contain;
+    background-position: top;
+    height: 17rem;
+    width: 100%;
+}
+
+.overlay{
+    content: '';
+    position: absolute;
+    top: 20;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80%;
+    width: 100%;
+    opacity: 0;
+    transition:  0.5s;
+    background: rgba(255, 255, 255, 0.6);
+    font-size: 3rem;
+    
+}
+
+
+.overlay-image{
+    transform: translateY(125%);
+}
+
+.card-body:hover .overlay{
+    opacity: 1;
+}
+

@@ -1,0 +1,51 @@
+.WellnessInfo{
+    height: 130rem;
+    margin-top: 30rem;
+}
+
+.WellnessInfo-text{
+    margin-left: 10rem;
+}
+
+
+.WellnessInfo-image-1{
+    background: url('../images/jogging.jpg') center center/cover no-repeat;
+    height: 20rem;
+    width: 50%;
+    margin-left: 15rem;
+}
+
+.WellnessInfo-image-2{
+    background: url('../images/work.jpg') center center/cover no-repeat;
+    height: 20rem;
+    width: 50%;
+    margin-left: 10rem;
+}
+
+.WellnessInfo-image-3{
+    background: url('../images/meditation.jpg') center center/cover no-repeat;
+    height: 20rem;
+    width: 50%;
+    margin-left: 15rem;
+}
+
+.WellnessInfo-image-4{
+    background: url('../images/spiritual.jpg') center center/cover no-repeat;
+    height: 20rem;
+    width: 50%;
+    margin-left: 10rem;
+}
+
+.WellnessInfo-image-5{
+    background: url('../images/friends.jpg') center center/cover no-repeat;
+    height: 20rem;
+    width: 50%;
+    margin-left: 15rem;
+}
+
+.WellnessInfo-image-6{
+    background: url('../images/environment.jpg') center center/cover no-repeat;
+    height: 20rem;
+    width: 50%;
+    margin-left: 10rem;
+}

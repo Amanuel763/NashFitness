@@ -1,0 +1,23 @@
+
+.about-image{
+    background: url('../images/work.jpg') center center/cover no-repeat;
+    height: 50vh;
+    width: 50%;
+    object-fit: contain;
+    position: absolute;
+}
+
+.About-header{
+    color: #000;
+    transform: translate(70%, 70%);
+}
+
+.About-header h5{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.About-header h6{
+    transform: translate(-15%, 170%);
+    font-size: 1.3rem;
+}

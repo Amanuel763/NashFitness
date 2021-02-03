@@ -1,0 +1,16 @@
+.Wellness{
+    height: 91vh;
+    background: url('../images/lifting.jpg') center center/cover no-repeat;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: -25rem;
+}
+
+
+.Wellness-image h1{
+    color: #fff;
+    z-index: 2;
+    font-size: 3.5rem;
+    margin-left: 35rem;
+    margin-top: 15rem;
+}
