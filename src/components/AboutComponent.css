@@ -1,3 +1,7 @@
+.About{
+    height: 35rem;
+}
+
 
 .about-image{
     background: url('../images/work.jpg') center center/cover no-repeat;

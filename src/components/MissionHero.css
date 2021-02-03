@@ -1,0 +1,16 @@
+.Mission-Container{
+    height: 40rem;
+    background: url('../images/friends.jpg') center center/cover no-repeat;
+    text-align: center;
+}
+
+.Mission-Container h1{
+    color: #fff;
+    transform: translateY(150%);
+    font-size: 5rem;
+}
+
+.Mission-Container h2{
+    color: #fff;
+    transform: translateY(450%);
+}
