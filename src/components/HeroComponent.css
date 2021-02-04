@@ -25,7 +25,8 @@
     position: absolute;
     padding: 3.5rem 4.5rem;
     background: #fff;
-    transform: translate(60%, 90%) !important;
+    margin-left: 28rem;
+    margin-top: 15rem;
     z-index: 2;
 }
 
