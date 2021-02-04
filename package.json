@@ -2,7 +2,7 @@
   "name": "baker2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amanuel763.github.io",
+  "homepage": "https://amanuel763.github.io/NashFitness/",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.12",
     "@testing-library/jest-dom": "^5.11.4",
