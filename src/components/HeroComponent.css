@@ -4,12 +4,13 @@
     width: 100%;
     object-fit: contain;
     position: relative;
+    text-align: center;
+
 }
 
 .Hero-container h1{
     color: #fff;
-    text-align: center;
-    transform: translateY(220%);
+    transform: translate(-2%, 220%);
     font-size: 4.5rem;
 }
 
@@ -19,13 +20,14 @@
     text-align: center;
     margin-top: 15rem;
     font-size: 3.5rem;
+    transform: translateX(-2%);
 }
 
 .Hero-overlay{
     position: absolute;
     padding: 3.5rem 4.5rem;
     background: #fff;
-    transform: translate(60%, 140%);
+    transform: translate(60%, 120%);
     z-index: 2;
 }
 
