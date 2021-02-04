@@ -2,7 +2,7 @@
   "name": "baker2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amanuel763.github.io/NashFitness",
+  "homepage": "https://amanuel763.github.io",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.12",
     "@testing-library/jest-dom": "^5.11.4",
@@ -31,7 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
