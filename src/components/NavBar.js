@@ -29,7 +29,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/NashFitness/' className='navbar-logo' onClick={closeMobileMenu}>
             <GiWeightLiftingUp />
             NashFitness
           </Link>
