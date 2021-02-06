@@ -1,14 +1,17 @@
 .About{
-    height: 35rem;
+    height: 50rem;
+    margin-top: 15rem;
 }
 
 
 .about-image{
-    background: url('../images/work.jpg') center center/cover no-repeat;
-    height: 50vh;
-    width: 50%;
+    background: url('../images/soccerplayer.jpg') center center/cover no-repeat;
+    height: 55rem;
+    width: 30%;
     object-fit: contain;
     position: absolute;
+    transform: translate(55%, -20%);
+    box-shadow: 20px 20px tomato;
 }
 
 .About-header{
@@ -17,11 +20,13 @@
 }
 
 .About-header h5{
-    font-size: 2rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
+    transform: translateX(-5%);
 }
 
 .About-header h6{
-    transform: translate(-15%, 170%);
+    transform: translate(-45%, 80%);
     font-size: 1.3rem;
+    text-align: center;
 }

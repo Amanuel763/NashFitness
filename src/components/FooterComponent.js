@@ -15,10 +15,22 @@ function Footer(props) {
                         <h5 className = "headerFooter">Links</h5>
                         <hr className = "hr" />
                         <ul className="list-unstyled">
-                            <li className = "links"><Link to='/home'>Home</Link></li>
-                            <li className = "links"><Link to='/directory'>Directory</Link></li>
-                            <li className = "links"><Link to='/aboutus'>About</Link></li>
-                            <li className = "links"><Link to='/contactus'>Contact</Link></li>
+                            <li className = "Nav-links">
+                                <Link to='/NashFitness' className='links'>
+                                    Home
+                                </Link>
+                            </li>
+                            <li className = "Nav-links">
+                                <Link to='/mission' className='links'>
+                                    Mission
+                                </Link>
+                            </li>
+                            <li className = "Nav-links">
+                                <Link to='/program' className='links'>
+                                    Programs
+                                </Link>
+                                
+                            </li>
                         </ul>
                     </div>
                     <div className="col-md-3 col-sm-3 mx-auto text-center">
