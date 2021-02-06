@@ -2,6 +2,7 @@
     height: 40rem;
     background: url('../images/friends.jpg') center center/cover no-repeat;
     text-align: center;
+    margin-top: -5rem;
 }
 
 .Mission-Container h1{
