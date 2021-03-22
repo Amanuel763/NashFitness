@@ -30,3 +30,35 @@
     font-size: 1.3rem;
     text-align: center;
 }
+
+@media (max-width: 64em){
+
+    .About{
+        height: 60rem;
+    }
+
+
+    .about-image{
+        height: 46rem;
+        width: 50%;
+    }
+
+
+    .About-header {
+        color: #000;
+        transform: translate(44%, 326%);
+    }
+
+    .About-header h5 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        transform: translateX(-7%);
+    }
+
+    .btn-about {
+        margin-left: 0rem;
+        margin-top: -6rem;
+    }
+    
+    
+}

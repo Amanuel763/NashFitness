@@ -1,0 +1,33 @@
+.Trainers{
+    height: 50rem;
+}
+
+.Header h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+    color: #000;
+}
+
+.Trainer-1{
+    background: url('../images/soccerplayer.jpg') center center/cover no-repeat;
+    height: 30rem;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.Trainer-2{
+    background: url('../images/trainer2.jpg') center center/cover no-repeat;
+    height: 30rem;
+    width: 100%;
+    margin-top: 5rem;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+.Trainer-3{
+    background: url('../images/trainer3.jpg') center center/cover no-repeat;
+    height: 30rem;
+    width: 100%;
+    margin-top: 5rem;
+}

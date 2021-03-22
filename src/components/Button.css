@@ -1,11 +1,17 @@
   .btn {
-    padding: 8px 20px;
+    padding: 1rem 5rem;
     border-radius: 2px;
     outline: none;
     border: none;
     cursor: pointer;
+    background: #fff;
+    color: #000;
   }
-  
+
+  .btn:hover{
+    background: #f87e59;
+  }
+
   .btn--primary {
     background-color: var(--primary);
     border: 1px solid var(--primary);

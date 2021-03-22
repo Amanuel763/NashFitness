@@ -1,0 +1,19 @@
+.Signup{
+    background-image: linear-gradient(to left, rgba(26, 22, 22, 0.8), rgba(250, 143, 143, 0.5)), 	 url('../images/groupexercise.jpg');
+    height: 20rem;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Header{
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.Header .text{
+    padding-top: 3rem;
+    color: #fff;
+}

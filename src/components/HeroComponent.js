@@ -11,7 +11,7 @@ function HeroComponent() {
             <div className='Hero-container'>
                 <h1 className='Hero-Nash'>NashFitness</h1>
                 <h2>Where Greatness is made</h2>
-                    <Button>Learn More</Button>
+                    <Button to='/mission'>Learn More</Button>
             </div>
         </>
     )

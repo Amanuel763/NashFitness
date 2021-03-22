@@ -2,10 +2,10 @@
     background-image: linear-gradient(to right, rgba(26, 22, 22, 0.8), rgba(250, 143, 143, 0.5)), 	 url('../images/machine.jpg');
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: 55rem;
     width: 100%;
     object-fit: contain;
-    margin-top: -5rem;
+    margin-top: -10rem;
 }
 
 .Hero-container .Hero-Nash{
@@ -88,3 +88,136 @@
         transform: translate(0);
     }
 }
+
+@media (max-width: 64em){
+    .btn{
+        margin-left: 23rem;
+    }
+}
+
+@media (max-width: 48em){
+
+    .fa-bars{
+        color: #495057;
+    }
+
+    .btn{
+        margin-left: 15rem;
+    }
+}
+
+@media (max-width: 33.75em){
+
+    .fa-bars{
+        color: #495057;
+    }
+
+    .btn{
+        margin-left: 8rem;
+    }
+}
+
+@media (max-width: 25.875em){
+
+    .fa-bars{
+        color: #495057;
+    }
+
+    .btn{
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 23.4375em){
+    .Hero-container .Hero-Nash{
+        font-size: 4rem;
+    }
+
+    .fa-bars{
+        color: #495057;
+    }
+
+    .btn{
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 22.5em){
+    .btn{
+        margin-left: 2.5rem;
+    }
+}
+
+@media (max-width: 22.5em){
+
+    .fa-bars{
+        color: #495057;
+    }
+
+    .btn{
+        margin-left: 2.5rem;
+    }
+}
+
+@media (max-width: 20em){
+    .Hero-container .Hero-Nash{
+        font-size: 3.5rem;
+    }
+
+    .fa-bars{
+        color: #495057;
+    }
+
+
+    .btn{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 17.5em){
+
+    .Hero-container .Hero-Nash{
+        font-size: 3rem;
+    }
+
+    .Hero-container h2{
+        font-size: 3rem;
+    }
+
+    .navbar-logo{
+        font-size: 2rem;
+        margin-top: 0rem;
+    }
+
+    .fa-bars{
+        color: #495057;
+    }
+
+
+    .btn {
+        margin-left: 0.8rem;
+    }
+
+    .btn--medium{
+        padding: 1rem 5rem;
+    }
+}
+
+/* @media (max-width: ) {
+
+    .Hero-container{
+        height: 50rem;
+    }
+
+    .Hero-container .Hero-Nash{
+        font-size: 3.5rem;
+    }
+
+    .Hero-container h2{
+        font-size: 2.5rem;
+    }
+
+    .btn{
+        margin-left: 2.5rem;
+    }
+} */
