@@ -31,6 +31,7 @@
     
 }
 
+<<<<<<< HEAD
 .arrow{
     color: #fff;
     font-size: 5rem;
@@ -42,6 +43,15 @@
     animation-iteration-count: infinite;
 
     backface-visibility: hidden;
+=======
+.Hero-overlay{
+    position: absolute;
+    padding: 3.5rem 4.5rem;
+    background: #fff;
+    margin-left: 28rem;
+    margin-top: 15rem;
+    z-index: 2;
+>>>>>>> cd73341230fdde13214a678521e7f6d866e0a3cf
 }
 
 
